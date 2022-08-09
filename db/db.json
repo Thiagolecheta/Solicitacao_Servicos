@@ -1,0 +1,92 @@
+{
+  "aparelhos": {
+    "dispositivos": [
+      {
+        "id": 1,
+        "tipo": "Celular"
+      },
+      {
+        "id": 2,
+        "tipo": "Notebook"
+      },
+      {
+        "id": 3,
+        "tipo": "Desktop"
+      },
+      {
+        "id": 4,
+        "tipo": "Tablet"
+      }
+    ],
+    "marcas": [
+      {
+        "id": 1,
+        "tipo": "Apple"
+      },
+      {
+        "id": 2,
+        "tipo": "Android"
+      },
+      {
+        "id": 3,
+        "tipo": "Samsung"
+      },
+      {
+        "id": 4,
+        "tipo": "Dell"
+      }
+    ],
+    "servicos": [
+      {
+        "id": 1,
+        "tipo": "Tela"
+      },
+      {
+        "id": 2,
+        "tipo": "Conector"
+      },
+      {
+        "id": 3,
+        "tipo": "Formatacao"
+      },
+      {
+        "id": 4,
+        "tipo": "Botao"
+      },
+      {
+        "id": 4,
+        "tipo": "Bateria"
+      },
+      {
+        "id": 4,
+        "tipo": "Camera"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em Laboratorio"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "solicitacaoServicos": [
+    {
+      "nome": "Natacha",
+      "dispositivo": "Notebook",
+      "marca": "Android",
+      "servicos": [
+        "Camera"
+      ],
+      "status": "Finalizado",
+      "id": 1
+    }
+  ]
+}
